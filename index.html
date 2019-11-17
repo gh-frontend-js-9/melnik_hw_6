@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>HomeWork_6</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="first-task task">
+        <div>
+          <h2>Task_1</h2>
+          <h3>Array: <span id="first-array"></span></h3>
+          <input type="number" id="fArray-obj" placeholder="Enter value..">
+          <button onclick="add('first-array', ft_array, 'fArray-obj')">Add</button>
+          <button onclick="addR('first-array', ft_array)">Add Random Number (max: 100)</button>
+          <button onclick="first_task_calculate()">Calculate</button>
+        </div>
+        <div>
+          <p>Sum: <span id="sum"></span></p>
+          <p>Min: <span id="min"></span></p>
+          <p>Max: <span id="max"></span></p>
+        </div>
+      </section>
+      <hr>
+      <section class="third-task task">
+        <div>
+          <h2>Task_3</h2>
+          <h3>Array: <span id="third-array"></span></h3>
+          <input type="number" id="tArray-obj" placeholder="Enter value..">
+          <button onclick="add('third-array', tt_array, 'tArray-obj')">Add</button>
+          <button onclick="addR('third-array', tt_array)">Add Random Number (max: 100)</button>
+          <button onclick="third_task_calculate()">Calculate</button>
+        </div>
+        <div>
+          <p>Result: <span id="tTask_result"></span> </p>
+        </div>
+      </section>
+      <hr>
+      <section class="four-task task">
+        <div>
+          <h2>Task_4</h2>
+          <input type="text" id="first_string" placeholder="Enter string..">
+          <input type="text" id="second_string" placeholder="Enter string..">
+          <button type="button" name="button" onclick="four_task_calculate()">Calculate</button>
+        </div>
+        <div>
+          <p>Result: <span id="fTask_result"></span></p>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="script.js" charset="utf-8"></script>
+</html>

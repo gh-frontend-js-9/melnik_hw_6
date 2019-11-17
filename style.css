@@ -1,0 +1,37 @@
+body{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(125deg, #1e2a36, #41254d,#10334a, #153e59, #0e594a ,#755f07, #733f11, #802920) no-repeat;
+  background-size: 400%;
+  animation: bgAnim 15s infinite;
+}
+@keyframes bgAnim {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+.container{
+  max-width: 1220px;
+  width: 95%;
+  padding: 100px;
+  margin: 150px auto;
+  background-color: white;
+  border-radius: 20px;
+}
+h2{
+  font-size: 30px;
+  margin: 0;
+}
+.task{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
